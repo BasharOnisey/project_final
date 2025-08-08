@@ -1,43 +1,47 @@
 <resources>
-    <!-- App Name -->
-    <string name="app_name">NASA Image Project</string>
+    <string name="app_name">NASA Image Viewer</string>
+    <string name="pick_a_date">Pick a Date</string>
+    <string name="save_image">Save Image</string>
+    <string name="toast_image_loaded">Image loaded successfully!</string>
+    <string name="toast_error">Failed to load image. Try again.</string>
+    <string name="toast_image_saved">Image saved successfully!</string>
+    <string name="toast_deleted">Image deleted.</string>
+    <string name="feedback_hint">Did you like or not?</string>
 
-    <!-- Drawer open/close -->
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <!-- Drawer Menu Titles -->
-    <string name="menu_nasa_image">NASA Image of the Day</string>
-    <string name="menu_saved">Saved Images</string>
+    <!-- Navigation menu strings -->
+    <string name="menu_saved_images">Saved Images</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_about">About</string>
+    <string name="menu_main">Main</string>
 
-    <!-- Toolbar Titles -->
-    <string name="title_main">NASA Image App</string>
-    <string name="title_saved_images">Saved Images</string>
-    <string name="title_settings">Settings</string>
-    <string name="title_about">About</string>
+    <!-- Help menu -->
+    <string name="menu_help">Help</string>
 
-    <!-- MainActivity Placeholder Text -->
-    <string name="welcome_message">Welcome to NASA Image of the Day!</string>
-
-    <!-- NASA API Related -->
-    <string name="select_date">Select a date</string>
-    <string name="fetch_image">Fetch NASA Image</string>
-    <string name="loading">Loading image...</string>
-    <string name="save_image">Save Image</string>
-    <string name="image_saved">Image saved successfully</string>
-    <string name="image_deleted">Image deleted</string>
-    <string name="undo">Undo</string>
-
-    <!-- About Page Text -->
-    <string name="about_message">This app fetches NASA Astronomy Picture of the Day and allows you to save your favorites!</string>
-    <string name="version_number">Version 1.0</string>
-
-    <!-- Help Dialogs -->
+    <!-- Help messages -->
     <string name="help_title">Help</string>
-    <string name="help_main">Use the drawer to navigate between screens. Pick a date to fetch NASA images.</string>
-    <string name="help_saved">Here you can view and delete saved images.</string>
-    <string name="help_settings">Change your app preferences here.</string>
-    <string name="help_about">Learn more about this app.</string>
+    <string name="help_message_main">Use the date picker to load an image from NASAs APOD API. Enter feedback and click Save to store it.</string>
+    <string name="help_message_settings">Use the buttons to change the background color. Your choice will be saved.</string>
+    <string name="help_message_about">This screen provides info about the app and project.</string>
+
+    <!-- Settings screen -->
+    <string name="settings">Settings</string>
+    <string name="toast_background_saved">Background color saved!</string>
+    <string name="snackbar_color_applied">Color applied!</string>
+
+    <!-- Saved Images screen -->
+    <string name="saved_images">Saved Images</string>
+
+    <!-- About screen -->
+    <string name="about">About</string>
+    <string name="about_info">This app uses NASAs Astronomy Picture of the Day (APOD) API to display images and info.</string>
+
+    <!-- List items -->
+    <string name="delete">Delete</string>
+    <string name="version_info">Version 1.0</string>
+    <string name="version">Version 1</string>
+    <string name="image_description">NASA Image Description</string>
+
+    <!-- Drawer accessibility -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

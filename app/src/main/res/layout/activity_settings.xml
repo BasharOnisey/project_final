@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/settingsLayout"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:titleTextColor="@android:color/white" />
+
+        <!-- Color Selection Buttons -->
+        <Button
+            android:id="@+id/btnRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red Background" />
+
+        <Button
+            android:id="@+id/btnGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green Background" />
+
+        <Button
+            android:id="@+id/btnBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue Background" />
+
+        <Button
+            android:id="@+id/btnWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White Background" />
+
+        <!-- Help Button -->
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help" />
+
+    </LinearLayout>
+
+    <!-- Navigation Drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
